@@ -19,6 +19,7 @@
     line-height: 34px;
     color: white;
     font-family: "Inter";
+    font-style: italic;
   }
 
   .introduction__author{
@@ -36,4 +37,43 @@
     line-height: 163%;;
     color: white;
     font-family: "Inter";
+  }
+
+  @media screen and (max-width: 1024px){
+    .introduction{
+      padding-top: 90px;
+      max-width: 720px;
+      margin: 0 24px;
+      padding-right: 0;
+      
+    }
+
+    .introduction__title{
+      font-family: "Inter";
+      max-width:707px;
+      font-size: 45px;
+      line-height: 49px;
+      color: white;
+     
+    }
+  }
+
+  @media screen and (max-width: 544px){ 
+    .introduction{
+      padding-top: 64px;
+      width: 288px;
+      margin: 0 16px;
+      padding-right: 0px;
+    }
+
+    .introduction__title{
+      
+      font-size: 32px;
+      line-height: 35px;      
+    }
+
+    .introduction__quote{
+     
+      line-height: 30px;
+    }
   }

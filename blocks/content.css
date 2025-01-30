@@ -2,3 +2,11 @@
     margin: 90px 148px 132px;
     display: block;
   }
+
+
+  @media screen and (max-width: 1024px){
+    .content{
+      margin: 0;
+      padding: 0;
+  }
+}
