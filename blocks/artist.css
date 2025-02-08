@@ -1,0 +1,29 @@
+.artist{
+    grid-area: artist;
+    
+}
+
+.artist__tag{
+    font-family: "Inter";
+    font-size: 12px;
+    line-height:  14.52px;
+    font-weight: 400;
+    color:  #AAA;
+    
+}
+
+.artist__name{
+    font-family: "Inter";
+    font-size: 18px;
+    line-height:  22px;
+    font-weight: 400;
+    color:  #FFF;
+   
+}
+
+@media screen and (max-width: 544px){
+    
+    .artist{
+        max-width: 288px;
+    }
+}

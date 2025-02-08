@@ -1,0 +1,17 @@
+.cities{
+    width: 830px;
+    margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1024px){
+    .cities{
+        width: 720px;
+        margin-top: 82px;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .cities{
+    width: 320px;
+    margin-top: 62px;
+}}
