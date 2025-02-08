@@ -19,10 +19,16 @@
     .description{
         width: 352px;
     }
-    
+
     .description__paragraph{
         font-family: "Inter";
         font-size: 16px;
         line-height: 26.08px;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .description{
+        width: 288px;
     }
 }
