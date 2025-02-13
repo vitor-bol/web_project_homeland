@@ -10,10 +10,11 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFF;
-    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
     border-style: none;
     box-shadow: 5px 5px 10px 0px #00000040;
     padding: 0;
+    
     }
 
     @media screen and (max-width: 1024px){
