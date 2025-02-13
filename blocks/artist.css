@@ -1,5 +1,9 @@
 .artist{
     grid-area: artist;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+   
     
 }
 
@@ -9,6 +13,7 @@
     line-height:  14.52px;
     font-weight: 400;
     color:  #AAA;
+    margin: 0;
     
 }
 
@@ -18,6 +23,7 @@
     line-height:  22px;
     font-weight: 400;
     color:  #FFF;
+    margin: 0;
    
 }
 

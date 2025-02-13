@@ -18,12 +18,12 @@
 
     @media screen and (max-width: 1024px){
         .button{
-            width: 355px;
+            max-width: 355px;
         }
     }
 
     @media screen and (max-width: 544px){
         .button{
-            width: 288px;
+            max-width: 288px;
         }
     }

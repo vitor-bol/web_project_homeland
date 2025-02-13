@@ -1,6 +1,9 @@
 .description{
     grid-area: description;
-    width: 484px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .description__paragraph{
@@ -13,12 +16,11 @@
     text-decoration-skip-ink: none;
     color: #FFF;
     margin: 0;
+    
 }
 
 @media screen and (max-width: 1024px){
-    .description{
-        width: 352px;
-    }
+    
 
     .description__paragraph{
         font-family: "Inter";
@@ -27,8 +29,3 @@
     }
 }
 
-@media screen and (max-width: 544px){
-    .description{
-        width: 288px;
-    }
-}

@@ -1,6 +1,6 @@
 .introduction{
     padding-top: 92px;
-    width: 830px;
+    max-width: 830px;
     margin: 0 auto;
     
   }
@@ -43,7 +43,7 @@
     .introduction{
       padding-top: 90px;
       max-width: 720px;
-      margin: 0 24px;
+      
       padding-right: 0;
       
     }
@@ -61,7 +61,7 @@
   @media screen and (max-width: 544px){ 
     .introduction{
       padding-top: 64px;
-      width: 288px;
+      max-width: 288px;
       margin: 0 16px;
       padding-right: 0px;
     }
