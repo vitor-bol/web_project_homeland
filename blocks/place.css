@@ -29,6 +29,12 @@
     box-shadow: 5px 5px 10px 0px #00000040;     
  }
 
+ .place__image:hover{
+    background: #00000080 50%;
+    opacity: 50%;
+
+ }
+
  .place__button{
     grid-area: button;
     width: 356.08px;
